@@ -1,0 +1,61 @@
+models:
+  # Profile Model And Migration
+  Profile:
+    user_id: id foreign:users
+    btc_wallet: string:400
+    eth_wallet: string:400
+    ltc_wallet: string:400
+    softDeletesTz
+    timestamps
+
+  # Investments Plans Model And Migration
+  
+  PLan_1:
+    user_id: id foreign:users
+    plan_type: string
+    min_invest: integer 
+    max_invest: integer
+    daily_intrest: integer
+    term_days: integer
+    roi: integer
+    softDeletesTz
+
+  PLan_2:
+    user_id: id foreign:users
+    plan_type: string
+    min_invest: integer 
+    max_invest: integer
+    daily_intrest: integer
+    term_days: integer
+    roi: integer
+    softDeletesTz
+  
+  PLan_3:
+    user_id: id foreign:users
+    plan_type: string
+    min_invest: integer 
+    max_invest: integer
+    daily_intrest: integer
+    term_days: integer
+    roi: integer
+    softDeletesTz
+
+  PLan_4:
+    user_id: id foreign:users
+    plan_type: string
+    min_invest: integer 
+    max_invest: integer
+    daily_intrest: integer
+    term_days: integer
+    roi: integer
+    softDeletesTz
+    
+
+controllers:
+  # Profile Controller
+  Profile:
+    resource
+
+  # Investments Controller
+  Invest:
+    resource
