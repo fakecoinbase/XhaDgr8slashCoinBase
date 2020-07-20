@@ -75,7 +75,7 @@ class InvestController extends Controller
         return redirect()->route('invest.index');
     }
 
-    /**
+    /**`
      * @param \Illuminate\Http\Request $request
      * @param \App\invest $invest
      * @return \Illuminate\Http\Response

@@ -2,12 +2,12 @@
 $body-bg: #f8fafc;
 
 // Typography
-$font-family-sans-serif: 'Nunito', sans-serif;
+$font-family-sans-serif: 'Roboto', sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 
 // Colors
-$blue: #3490dc;
+$blue: #f6993f;
 $indigo: #6574cd;
 $purple: #9561e2;
 $pink: #f66d9b;
@@ -17,3 +17,19 @@ $yellow: #ffed4a;
 $green: #38c172;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
+
+$enable-shadows:                              true;
+$enable-gradients:                            true;
+$enable-responsive-font-sizes:                true;
+$border-radius-lg:                            .5rem;
+$enable-responsive-font-sizes:                true;
+
+
+.tr{
+    td {
+        padding-top: 1.7rem!important;
+    }
+}
+// $primary: linear-gradient(to bottom, #0073ec, #214eec);
+// $secondary:     $yellow;
+// $light:         light;
